@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: darkcyan;
+}
+li{
+    list-style-type: none;
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 36);
+    color: rgb(50, 78, 78);
+    width: 100%;
+}
+.brand{
+    margin: 10px;
+}
+.uls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    margin-right: 40px;
+    
+}
+a::before{
+    content: "";
+    position: absolute;
+    top: 50px;
+    margin-left: -5px;
+    height: 3px;
+    width: 0px;
+    background-color: red;
+}
+li:hover a::before{
+    width: 70px;
+    transition:width 0.5s;
+   
+}
+.bar{
+    display: none;
+}
+.card1{
+   margin-top: 100px; 
+   margin-left: 200px;
+}
+.section1{
+  max-width: 100%;
+  display: grid;
+grid-template-columns: repeat(2,1fr);
+min-height: 88vh;
+background-color: darkcyan;
+background-image: url("https://img.freepik.com/free-photo/overhead-shot-modern-workplace-with-blank-screen-tablet-cup-coffee_67155-2771.jpg?size=626&ext=jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: bottom;
+background-size: cover;
+}
+.section2{
+    max-width: 100%;
+  min-height: 100vh;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid slategray;
+  background-color: rgb(37, 22, 22);
+  text-align: center;
+
+}
+.around{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img{
+    background-color: royalblue;
+    max-width: 60%;
+    max-height: 60vh;
+    position: relative;
+   margin-top: 80px;
+   border-radius: 30px;
+}
+.lorems{
+    position: relative;
+    margin-right: 100px;
+    margin-top: 70px;
+ 
+}
+.big_lorem{
+    margin-top: 120px;
+}
+.section3{
+    max-width: 100%;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid slategray;
+    background-color: rgb(37, 22, 22);
+    text-align: center;
+}
+.lorems2{
+color: slategrey;
+    margin-left: 80px;
+    margin-top: 100px;
+    max-width: 60%;
+    max-height: 60vh;
+    position: relative;
+}
+.btn{
+    background-color: slategrey;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color: black;
+    color: slategrey;
+    border: 1px solid slategray; 
+}
+.i_know{
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.css{
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.css_border{
+    margin-left: 20px;
+    width: 400px;
+    height: 30px;
+    border: 2px solid slategray;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.css_border:hover .css_color{
+    max-width: 90%;
+    transition:max-width 01s;
+}
+.css_color{
+    max-width: 0%;
+    height: 40px;
+    background-color: red;
+}
+.html{
+    display: flex;
+    align-items: center;
+    color: blue;
+    margin-top: 50px;
+}
+.html_border{
+    margin-left: 20px;
+    width: 400px;
+    height: 30px;
+    border: 2px solid slategray;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.html_border:hover .html_color{
+    max-width: 100%;
+    transition:max-width 01s;
+}
+.html_color{
+    max-width: 0%;
+    height: 40px;
+    background-color: blue;
+}
+.javascript{
+    display: flex;
+    align-items: center;
+    color: yellow;
+    margin-top: 50px;
+}
+.javascript_border{
+    margin-left: 20px;
+    width: 400px;
+    height: 30px;
+    border: 2px solid slategray;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.javascript_border:hover .javascript_color{
+    max-width: 70%;
+    transition:max-width 01s;
+}
+.javascript_color{
+    max-width: 0%;
+    height: 40px;
+    background-color: yellow;
+}
+.section4{
+    max-width: 100%;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid slategray;
+    background-color: rgb(37, 22, 22);
+    text-align: center;
+}
+.card{
+    max-width: 400px;
+    min-height: 400px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 1px solid red;
+    color: black;
+    box-shadow: 2px 7px 10px 2px  red;
+}
+.rows{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card_title{
+    margin-top: 40px;
+}
+i{
+    font-size: 90px;
+    color: red;
+    margin-top: 30px;
+}
+.card:hover i{
+    margin-top: 10px;
+    transition:margin-top 0.5s;
+}
+.section5{
+    min-width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid slategray;
+    background-color: rgb(37, 22, 22);
+}
+.photo_card{
+    max-width: 290px;
+    max-height: 250px;
+    background-color: darkmagenta;
+    border:1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.photos_row{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.photos{
+    width: 300px;
+    height: 250px;
+}
+.photos:hover{
+    transform: scale(1.2);
+    transition: transform 0.7s;
+}
+.contact_card{
+    max-width: 300px;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+     box-shadow: 2px 7px 10px 2px  red;
+}
+.contact_row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: black;
+}
+.section6{
+    text-align: center;
+    min-width: 100%;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid slategray;
+    background-color: rgb(37, 22, 22);
+}
+.Todo{
+    margin-top: 40px;
+    margin-left: 400px;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(151, 139, 139);
+    border-radius: 20px;
+    box-shadow: 2px 8px 10px 3px ;
+}
+.input1{
+    width: 90%;
+    height: 60px;
+  margin-top: 10px;
+}
+textarea{
+    width: 90%;
+    height: 100px;
+    margin-top: 30px;
+}
+.batn{
+    width: 90%;
+    height: 50px;
+    background-color: red;
+    color: slategray;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    min-width: 100%;
+min-height: 30vh;
+background-color: black;
+text-align: center;
+color: white;
+padding-top: 30px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+@media(max-width:1000px){
+    .uls{
+        display: none;
+    }
+    .bar{
+        display: inline-block;
+        margin-right: 40px;
+    }
+    .section1{
+        max-width: 100%;
+        display: grid;
+      grid-template-columns: repeat(1,1fr);
+      min-height: 88vh;
+      background-color: darkcyan;
+      }
+      .section3{
+        max-width: 100%;
+        display: grid;
+      grid-template-columns: repeat(1,1fr);
+      min-height: 88vh;
+      text-align: center;
+      }
+      .card1{
+        margin-top: 100px; 
+        margin-left: 100px;
+     }
+     .img{
+        margin-top: 10px;
+   margin-left: 10px;  
+     }
+     .lorems{
+        margin-top: 20px;
+        margin-left: 100px;
+         
+     }
+     
+     .big_lorem{
+         display: none;
+     }
+     .around{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     }
+     .lorems2{
+        margin-top: 10px;
+        margin-left: 70px;
+     }
+     .i_know{
+        margin-top: 250px;
+        margin-left: -100px;
+     }
+     .html_border{
+        margin-left: 150px;
+        max-width: 250px;
+     }
+     .css_border{
+        margin-left: 150px;
+        max-width: 250px;
+    }
+    .javascript_border{
+        margin-left: 150px;
+        max-width: 250px;
+    }
+    .html{
+        display: block;
+        margin-top: 10px;
+    }
+    .css{
+        display: block;
+        margin-top: 10px;
+    }
+    .javascript{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .rows{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        margin-left: 20px;
+        margin-top: 10px;
+        max-width: 300px;
+        min-height: 300px;
+    }
+    .photos_row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        }
+        .photo_card{
+            max-width: 300px;
+        margin-left: 20px;
+        }
+        .section5{
+            min-width: 90%;
+        }
+        .contact_row{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }    
+        .contact_card{
+            margin-top: 20px;
+        }
+        .Todo{
+            max-width: 300px;
+            max-height: 400px;
+            margin-left:20px;
+        }
+}
+.slide{
+    animation:slider 6s infinite;
+    position: relative;
+}
+.over{
+    height: 90px;
+    overflow: hidden;
+}
+.white{
+    margin-bottom: 50px;
+    color: royalblue;
+}
+.white1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.slider{
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+}
+@keyframes slider{
+    0%{
+        margin-top: 0px;
+    }
+    25%{
+        margin-top: -70px;
+    }
+    50%{
+        margin-top: -140px;
+    }
+    75%{
+        margin-top: -70px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
