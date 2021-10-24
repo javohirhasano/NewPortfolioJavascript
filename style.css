@@ -14,6 +14,7 @@ body{
     position: relative;
     margin: 0;
     padding: 0;
+    background-color: rgb(37, 22, 22);
 }
 header{
     display: flex;
@@ -33,7 +34,6 @@ header{
 }
 .text{
     margin-right: 40px;
-    
 }
 a::before{
     content: "";
@@ -47,7 +47,6 @@ a::before{
 li:hover a::before{
     width: 70px;
     transition:width 0.5s;
-   
 }
 .bar{
     display: none;
@@ -290,9 +289,10 @@ grid-template-columns: repeat(3,1fr);
     margin-left: 400px;
     width: 600px;
     height: 450px;
-    background-color: rgb(151, 139, 139);
+    background-color: rgb(37, 22, 22)rgb(37, 22, 22);
     border-radius: 20px;
-    box-shadow: 2px 8px 10px 3px ;
+    box-shadow: 4px 10px 20px 5px rgb(37, 22, 22);
+    margin-bottom: 40px;
 }
 .input1{
     width: 90%;
@@ -341,6 +341,10 @@ padding-top: 30px;
       min-height: 88vh;
       background-color: darkcyan;
       }
+      .over{
+          height: 50px;
+      }
+      
       .section3{
         max-width: 100%;
         display: grid;
@@ -359,9 +363,10 @@ padding-top: 30px;
      .lorems{
         margin-top: 20px;
         margin-left: 100px;
-         
      }
-     
+     .btn{
+         margin-top: 10px;
+     }
      .big_lorem{
          display: none;
      }
@@ -374,7 +379,7 @@ padding-top: 30px;
         margin-left: 70px;
      }
      .i_know{
-        margin-top: 250px;
+        margin-top: 10px;
         margin-left: -100px;
      }
      .html_border{
@@ -392,25 +397,29 @@ padding-top: 30px;
     .html{
         display: block;
         margin-top: 10px;
+        margin-left: 30px;
     }
     .css{
         display: block;
         margin-top: 10px;
+        margin-left: 30px;
     }
     .javascript{
         display: block;
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: 30px;
     }
     .rows{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
     .card{
-        margin-left: 20px;
+        margin-left: 50px;
         margin-top: 10px;
         max-width: 300px;
         min-height: 300px;
+        margin-bottom: 40px;
     }
     .photos_row{
         display: grid;
@@ -418,7 +427,8 @@ padding-top: 30px;
         }
         .photo_card{
             max-width: 300px;
-        margin-left: 20px;
+        margin-left: 40px;
+        margin-bottom: 40px;
         }
         .section5{
             min-width: 90%;
@@ -429,11 +439,51 @@ padding-top: 30px;
         }    
         .contact_card{
             margin-top: 20px;
+            margin-left: 45px;
         }
         .Todo{
             max-width: 300px;
             max-height: 400px;
-            margin-left:20px;
+            margin-left:45px;
+            margin-bottom: 40px;
+        }
+        .slide{
+            animation:slider 6s infinite;
+            position: relative;
+        }
+        .over{
+            height: 0px;
+            overflow: hidden;
+        }
+        .white{
+            margin-bottom: 0px;
+            color: royalblue;
+        }
+        .white1{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .slider{
+            font-size: 20px;
+            font-weight: 500;
+            color: red;
+        }
+        @keyframes slider{
+            0%{
+                margin-top: 30px;
+            }
+            25%{
+                margin-top: 150px;
+            }
+            50%{
+                margin-top: 200px;
+            }
+            75%{
+                margin-top: 150px;
+            }
+            100%{
+                margin-top: 30px;
+            }
         }
 }
 .slide{
