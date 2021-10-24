@@ -23,6 +23,12 @@ header{
     background-color: rgb(20, 20, 36);
     color: rgb(50, 78, 78);
     width: 100%;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
 }
 .brand{
     margin: 10px;
@@ -42,7 +48,7 @@ a::before{
     margin-left: -5px;
     height: 3px;
     width: 0px;
-    background-color: red;
+    background-color: rgb(168, 5, 86);
 }
 li:hover a::before{
     width: 70px;
@@ -87,6 +93,16 @@ background-size: cover;
     position: relative;
    margin-top: 80px;
    border-radius: 30px;
+   
+}
+header.sticky{
+    background: rgb(173, 4, 4);
+    padding: 10px 0px 10px;
+    transition: padding 0.7s;
+    color: blanchedalmond;
+}
+header.sticky .fa-bars{
+    background-color:rgb(173, 4, 4) ;
 }
 .lorems{
     position: relative;
@@ -338,7 +354,7 @@ padding-top: 30px;
     .fa-bars{
         font-size: 30px;
         margin-top: 0;
-        background-color: rgb(20, 20, 36);
+        background-color: rgb(23, 26, 53);
         color: white;
     }
     .section1{
