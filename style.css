@@ -82,8 +82,8 @@ background-size: cover;
 }
 .img{
     background-color: royalblue;
-    max-width: 60%;
-    max-height: 60vh;
+    max-width: 80%;
+    min-height: 60vh;
     position: relative;
    margin-top: 80px;
    border-radius: 30px;
@@ -366,6 +366,7 @@ padding-top: 30px;
      .img{
         margin-top: 10px;
    margin-left: 10px;  
+   min-height: 40vh;
      }
      .lorems{
         margin-top: 20px;
