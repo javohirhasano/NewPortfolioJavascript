@@ -177,6 +177,7 @@ color: slategrey;
     align-items: center;
     color: yellow;
     margin-top: 50px;
+    text-align: center;
 }
 .javascript_border{
     margin-left: 20px;
@@ -334,6 +335,12 @@ padding-top: 30px;
         display: inline-block;
         margin-right: 40px;
     }
+    .fa-bars{
+        font-size: 30px;
+        margin-top: 0;
+        background-color: rgb(20, 20, 36);
+        color: white;
+    }
     .section1{
         max-width: 100%;
         display: grid;
@@ -380,7 +387,8 @@ padding-top: 30px;
      }
      .i_know{
         margin-top: 10px;
-        margin-left: -100px;
+        text-align: center;
+        margin-left: -120px;
      }
      .html_border{
         margin-left: 150px;
@@ -415,7 +423,7 @@ padding-top: 30px;
         grid-template-columns: repeat(1,1fr);
     }
     .card{
-        margin-left: 50px;
+        margin-left: 30px;
         margin-top: 10px;
         max-width: 300px;
         min-height: 300px;
@@ -427,7 +435,7 @@ padding-top: 30px;
         }
         .photo_card{
             max-width: 300px;
-        margin-left: 40px;
+        margin-left: 30px;
         margin-bottom: 40px;
         }
         .section5{
@@ -439,12 +447,12 @@ padding-top: 30px;
         }    
         .contact_card{
             margin-top: 20px;
-            margin-left: 45px;
+            margin-left: 30px;
         }
         .Todo{
             max-width: 300px;
             max-height: 400px;
-            margin-left:45px;
+            margin-left:25px;
             margin-bottom: 40px;
         }
         .slide{
