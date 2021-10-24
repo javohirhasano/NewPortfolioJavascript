@@ -104,6 +104,25 @@ header.sticky{
 header.sticky .fa-bars{
     background-color:rgb(173, 4, 4) ;
 }
+.fa-bars.fa-times{
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+
+.fa-bars.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    min-width: 100%;
+    min-height: 99vh;
+    z-index: 999;
+    transition: min-width 0.7s;
+    transition:  min-height 0.7s;
+    background-color: rgb(107, 101, 101);
+}
 .lorems{
     position: relative;
     margin-right: 100px;
